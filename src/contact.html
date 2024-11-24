@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+<header style="text-align: center; background-color: #f0f0f0; padding: 20px;">
+    <a href="index.html" style="margin: 0 15px;">Home</a>
+    <a href="about.html" style="margin: 0 15px;">About</a>
+    <a href="education.html" style="margin: 0 15px;">Education</a>
+    <a href="project.html" style="margin: 0 15px;">Projects</a>
+    <a href="contact.html" style="margin: 0 15px;">Contact</a>
+</header>
+
+
+    <div align="center">
+        <h1>Contact Me</h1>
+    
+        <form action="YOUR_EMAIL_ENDPOINT" method="POST">
+            <div>
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="10" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
