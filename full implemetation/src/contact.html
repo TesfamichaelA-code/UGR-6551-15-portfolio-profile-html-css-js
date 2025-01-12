@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesfamichael A - Contact</title>    
+    <link rel="stylesheet" href="styles/contact.css" />
+    <script src="contact.js" defer></script>
+  </head>
+  <body>
+    <div class="desktop-home">
+      <div class="content-wrapper">
+        <header>
+            <a href="./index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="education.html" class="nav-link">Education</a>
+            <a href="project.html" class="nav-link">Projects</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </header>
+        <main>
+          <section class="contact-form">
+            <div class="title-container">
+              <h2 class="form-title">Contact me</h2>
+            </div>
+            <form id="contactForm" action="#" method="post">
+              <div class="form-field">
+                  <input type="text" id="name" name="name" placeholder="Name:" required class="form-input" />
+                  <span id="nameError" class="error-message" style="display: none; color: red;"></span>
+              </div>
+              <div class="form-field">
+                  <input type="email" id="email" name="email" placeholder="Email:" required class="form-input" />
+                  <span id="emailError" class="error-message" style="display: none; color: red;"></span>
+              </div>
+              <div class="form-field">
+                  <textarea id="message" name="message" placeholder="Start by saying Hi!" required class="form-textarea"></textarea>
+                  <span id="messageError" class="error-message" style="display: none; color: red;"></span>
+              </div>
+              <button type="submit" class="send-button">SEND</button>
+          </form>
+          
+          </section>
+        </main>
+        <footer class="footer">
+          <div class="footer-content">
+            <p class="footer-name">Tesfamichael A</p>
+            <div class="social-icons">
+              <div class="icon-circle">
+                <img class="social-icon" src="images/Linkedin.png" alt="LinkedIn" />
+              </div>
+              <div class="icon-circle">
+                <img class="social-icon" src="images/leetcode.png" alt="LeetCode" />
+              </div>
+              <div class="icon-circle">
+                <img class="social-icon" src="images/Github.png" alt="GitHub" />
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="./js/contact.js" defer></script>
+  </body>
+</html>
